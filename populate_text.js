@@ -1,20 +1,17 @@
+DATA_FILE = 'https://raw.githubusercontent.com/websys-group1/GNH/paul/data.json'
+
 $(document).ready(
     // example. filling up center red box
-
-    // $.ajax({
-    //     type : 'GET',
-    //     dataType : 'json',
-    //     url: './data.json',
-    //     async:false,
-    //     success : function(data) {
-    //         // console.log(data); 
-    //         var topics = [];
-    //         $('#tutor-desc').html(data.center_text)
-    //     } 
-    // })
-
-    $.get('./data.json', function(res){
-        $("#tutor-desc").html(res.center_text);
-        alert("Load was performed.");
-    })
+    fill_element('#tutor-desc',"center_text")
 )
+
+const fill_element = (selector,fieldname) => {
+    $.ajax({
+        type : 'GET',
+        dataType : 'json',
+        url: DATA_FILE,
+        success : function(data) {
+            $(selector).html(data[fieldname])
+        } 
+    })
+}
