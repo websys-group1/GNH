@@ -27,6 +27,32 @@
     border:black;
 }
 
+body #aboutText2{
+    width: 60%;
+    padding-left: 20px;
+    left: 0;
+    height: 50px;
+    background-color:lightcyan;
+    display: block;
+    border:black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body #aboutText3{
+    width: 60%;
+    padding-left: 20px;
+    left: 0;
+    height: 300px;
+    background-color:lightcyan;
+    display: block;
+    border:black;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:steelblue;
+}
+
 body{
     background-image: url("backimg.jpg");
     width: 100%;
@@ -49,6 +75,14 @@ h2{
     font-size: 20px;
     color:royalblue;
 }
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:royalblue;
+
+}
+
 h1{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,7 +90,7 @@ h1{
     font-size: 40px;
 }
 
-h4{
+#header h4{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:steelblue;
@@ -79,6 +113,7 @@ h4{
     background-size:cover;
     background-repeat:no-repeat;
     border: black;
+    overflow-y:scroll;
 }
 .column2{
     font-family:'Courier New', Courier, monospace;
@@ -113,3 +148,77 @@ h4{
     padding-bottom: 30px;
 }
 
+button {
+  background-color: #7c96ce;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left:50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  float: right;
+}
+
+.newsArt {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.newsArt > h1,
+.newsSubj {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.newsSubj {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.newsSubj > h2,
+.newsSubj > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+
+#aboutText3 h1 { 
+	box-shadow: .6em 0 0 #05ffa3;
+  margin: 2rem 1rem;
+	width: 23ch;
+  overflow: hidden;
+  color: black;
+	white-space: nowrap;
+	animation: caret .5s step-end infinite alternate,
+             type 5s steps(23, end)
+}
+
+#aboutText3 h3 { 
+	box-shadow: .6em 0 0 #05ffa3;
+    margin: 0.7rem 1rem;
+	width: 23ch;
+    overflow: hidden;
+    color: black;
+	white-space: nowrap;
+	animation: caret .5s step-end infinite alternate,
+    type 5s steps(23, end)
+}
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+}
+@keyframes caret { 
+  50% { 
+    box-shadow: .6em 0 0 transparent;
+  }
+}
