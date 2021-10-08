@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,70 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel = "stylesheet" 
-    href = "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> -->
 
-    <script type = "text/javascript" 
-        src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-   
-    <script type = "text/javascript" 
-        src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
     </script>
-    <script type="text/javascript" src= "widets.js"></script>
-    <!--scrollbar-->
-
-    <script type="text/javascript" src= "populate_text.js"></script>
-    
+    <script type="text/javascript" src="widets.js"></script>
+    <script type="text/javascript" src="populate_text.js"></script>
+    <script type="text/javascript" src="homejs.js"></script>
     <title>Document</title>
 </head>
 <body>
-   
+    
+
     <div id=header>
-        <h1>Gamma Nu Eta</h1>
-        <h4>ITWS Honor Society</h4>
+        <h1 id=title></h1>
+        <h4 id=smallTitle></h4>
         <img>
-        <span> <img src= ".vscode/gnh_logo.png" width= "115" height= "115"></span>
-        <span> <img src= "Logo_Color_Transparent.png" width= "120" height= "120"></span>
-       
+        <span> <img src=".vscode/gnh_logo.png" width="85" height="85"></span>
+        <span> <img src="Logo_Color_Transparent.png" width="85" height="85"></span>
+    </div>
+
+    <div id="aboutText2">
+        <!--include social media,info about is an ITWS honors society tha tprovides services such as tutoring to rpi students, and runs career events -->
+        <h3 id= "atGNU">
+        </h3>
+    </div>
+    <div id="aboutText3">
+        <h1 id= "welcome"></h1>
+        
+        <h4 id= "contact"></h4>
+        <p id= "twitter"></p>
+        <p id="ig"></p>
+        <p id="fb"></p>
+        <span><h3 id= "lm"></h3>   <a href= "activities.html"><button>Activities Page!</button> </a></span>
+        
+        
         
     </div>
-    <div id= aboutText>
-        <h2> Gamma Nu Eta is the ITWS honor society here at rpi. Founded in 2000 GNH's connects ITWS students
-            and RPI alumni. GNH hosts many events that help students with netwrking, and also offer
-            tutoring every week where students are welcome to bring any questions they have on homework from ITWS related classes
-            to even career related questions.
-        </h2>
-    </div>
-    <div id=bodytext>
-        <!--include three columns here-->
-        <div class= "row">
-            <div class= "column1">
-                <h3>Gamma Nu Eta Newsletter</h3>
-                <p>GNH sends out a newslatter to all the ITWS students and alumni 
-                    every year to keep them updated on the ITWS program and RPI as well
-                </p>
-            </div>
-            <div class= "column2">
-                <h3>Tutoring</h3>
-
-            <p>put text here. need to put the form here</p>
-
-
-                <div id="tutor-desc"></div>
-            </div>
-            <div class= "column3">
-                <h3>Career related events</h3>
-                <p>GNH's biggest event is the company expose that is held every year before the 
-                    annual career fair. It is a great way for students to make connections with 
-                    recruiters in a smaller setting.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div id=footer>
-        <img src="rpilogo.png" alt="RPI logo" width="100" height="100">
-        <h3>Scroll for activites and events page</h3>
-    </div>
+    
+    
 </body>
-<!-- this has to run after everything on page is rendered -->
 </html>

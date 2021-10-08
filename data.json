@@ -1,4 +1,31 @@
+
 {
-    "center_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "new_text": "another one"
-}
+    "about_text": "Gamma Nu Eta is the ITWS honor society here at rpi. Founded in 2000 GNH's connects ITWS students and RPI alumni. GNH hosts many events that help students with netwrking, and also offer tutoring every week where students are welcome to bring any questions they have on homework from ITWS related classes to even career related questions. Contact us at gammanueta@rpi.edu, or our president at smitha24@rpi.edu",
+    "center_text": "Submit this form to apply for getting tutoring help!",
+    "news_text": "GNH sends out a newslatter to all the ITWS students and alumni every year to keep them updated on the ITWS program and RPI as well",
+    "events_text": "GNH’s largest event of the year is the company expose that is held the day before the career fair. The expose is an opportunity for students to interact and meet with recruiters in a casual setting before the  career fair. This also allows the students to make a connection with them so it is easier to interact at the career fair. Students and recruiters mingle and get to know each other through games and other engaging activities. This is also a good opportunity for students to prep for the upcoming career fair ",
+    "tutoring_text": "Tutoring",
+    "tutoring_text2": "GNH hosts a tutoring session once a week at the ITWS lounge in the Lally building. At these sessions students are welcome to bring questions from any of the ITWS core classes such as Intro to IT, and web systems students can also get help for classes outside the ITWS degree program such as Data structures and computer science 1. Gamma Nu Eta members are also available to help with any questions about career development and resumes at these sessions. Tutoring sessions are held on Wednesdays from 1:00 PM - 2:00 PM.",
+    "career-btntxt": "Click the button below to learn more about our career fair and activities!",
+    "news_header": "Gamma Nu Eta Newsletter",
+    "_title": "Gamma Nu Eta",
+    "small_title":"ITWS Honor Society",
+    "current_news": "Current News in ITWS",
+    "_eco": "Expert in Ecological Applications of AI Joins Newly Announced Imageomics Institute",
+    "_eco2": "Using images of living organisms to understand biological processes",
+    "_james":"James Hendler Named Chair of ACM Technology Policy Council",
+    "_james2":"Hendler will be heading the global policy council of ACM",
+    "_comp":"Will Next Generation of Exascale Supercomputers Be Able To Work With Petascale Data?",
+    "_comp2":"Next generations of supercomputers ",
+    "_lookHelp": "I am looking for help with core ITWS courses",
+    "_lookHelp2":" I am looking for help with courses outside ITWS core courses (CSCI)",
+    "_events": "Career related events",
+    "_atGNU":" Gamma Nu Eta is an ITWS honors society that provides services such as tutoring to RPI students, and runs career events.",
+    "_welcome": "Welcome to GNH",
+    "_contact": "Contact Us!",
+    "_twitter": "Twitter: @GNHonTwitter",
+    "_ig": "InstaGram: @GNHonIG",
+    "_fb":"FaceBook: @GNHfb",
+    "_lm":"Learn more here->"
+    
+    }
