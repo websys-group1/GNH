@@ -1,4 +1,4 @@
-DATA_FILE = 'https://raw.githubusercontent.com/websys-group1/GNH/paul/data.json'
+DATA_FILE = 'data.json'
 
 const fill_element = (selector,fieldname) => {
     $.ajax({
@@ -13,5 +13,8 @@ const fill_element = (selector,fieldname) => {
 
 $(document).ready(
     // example. filling up center red box
-    fill_element('#tutor-desc',"center_text")
+    fill_element('#about-desc',"about_text"),
+    fill_element('#tutor-desc',"center_text"),
+    fill_element('#news-desc',"news_text"),
+    fill_element('#events-desc',"events_text")
 )
