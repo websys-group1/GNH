@@ -1,10 +1,5 @@
 DATA_FILE = 'https://raw.githubusercontent.com/websys-group1/GNH/paul/data.json'
 
-$(document).ready(
-    // example. filling up center red box
-    fill_element('#tutor-desc',"center_text")
-)
-
 const fill_element = (selector,fieldname) => {
     $.ajax({
         type : 'GET',
@@ -15,3 +10,8 @@ const fill_element = (selector,fieldname) => {
         } 
     })
 }
+
+$(document).ready(
+    // example. filling up center red box
+    fill_element('#tutor-desc',"center_text")
+)
